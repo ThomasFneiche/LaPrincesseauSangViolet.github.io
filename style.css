@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFE4E1;
+  font-family: 'Crimson Pro', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.book-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.page {
+  width: 400px;
+  min-height: 550px;
+  background-color: white;
+  color: black;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  text-align: left;
+  transition: all 0.3s ease;
+  font-family: 'Crimson Pro', serif;
+}
+
+.page h2 {
+  margin-top: 0;
+}
+
+.nav-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5em;
+  color: black;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.nav-btn i {
+  pointer-events: none;
+}
+
+.nav-btn:hover {
+  background-color: rgba(255,255,255,0.4);
+}
+
+.nav-btn.left {
+  margin-right: 10px;
+}
+
+.nav-btn.right {
+  margin-left: 10px;
+}
+
+.page img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
+
+.page.cover {
+  padding: 0;
+}
+.titre-intro {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.titre-chap {
+  font-size: 2.2em;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
