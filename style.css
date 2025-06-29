@@ -94,4 +94,24 @@ body {
   margin-top: 150px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 430px) {
+  body {
+    font-size: 18px; /* taille de base augmentée */
+  }
+
+  .page {
+    font-size: 1.1em; /* le texte de la page sera plus gros */
+    line-height: 1.6;
+  }
+
+  .page p,
+  .page span,
+  .page blockquote {
+    font-size: 1.1em;
+  }
+
+  .page blockquote strong {
+    font-size: 1.3em;
+  }
+}
 
