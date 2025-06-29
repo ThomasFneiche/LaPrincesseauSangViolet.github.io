@@ -11,14 +11,18 @@ body {
 
 .book-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
 }
 
 .page {
-  width: 500px;
-  min-height: 750px;
+  width: 80vw;
+  min-height: 55vh;
   background-color: white;
   color: black;
   padding: 40px;
@@ -28,6 +32,13 @@ body {
   transition: all 0.3s ease;
   font-family: 'Crimson Pro', serif;
 }
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
 
 .page h2 {
   margin-top: 0;
@@ -83,3 +94,4 @@ body {
   margin-top: 150px;
   margin-bottom: 20px;
 }
+
